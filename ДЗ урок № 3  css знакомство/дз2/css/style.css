@@ -1,0 +1,43 @@
+body {
+background-color: rgba(3, 6, 10, .5);
+}
+
+.center {
+text-align: center;
+}
+
+ img {
+    border: 3px solid #00a8e1;
+    margin-top: 10px;
+          }
+          
+ section {
+    position: absolute; /* Абсолютное позиционирование */
+    background: #fff; /* Цвет фона */
+    width: 260px; /* Ширина */
+    padding: 20px; /* Поля */
+    min-height: 260px; /* Минимальная высота */
+    left: 0; right: 0; /* Нужно для выравнивания */
+    margin: 80px auto 0; /* Выравниваем по центру */
+    top: 130%;
+               }
+.line-through {
+	text-decoration: line-through;
+}
+    
+    .underline {
+    	text-decoration: underline;
+    	color: #1240AB;
+    	font-size: 24px;
+    }
+
+/*Поддержка браузерами*/
+IE: 11.0, 10.0 -ms-
+Firefox: 28.0, 18.0 -moz-
+Chrome: 29.0, 21.0 -webkit-
+Safari: 6.1 -webkit-
+Opera: 12.1 -webkit-
+iOS Safari: 7.0 -webkit-
+Opera Mini: 8
+Android Browser: 4.4, 4.1 -webkit-
+Chrome for Android: 44

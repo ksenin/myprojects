@@ -1,0 +1,23 @@
+body {
+	background: #FFC373;
+}
+
+.center {
+text-align: center;
+}
+
+ img {
+    border: 3px solid #00a8e1;
+    margin-top: 10px;
+          }
+          
+.line-through {
+	text-decoration: line-through;
+}
+    
+    .underline {
+    	text-decoration: underline;
+    	color: #1240AB;
+    	font-size: 24px;
+    }
+

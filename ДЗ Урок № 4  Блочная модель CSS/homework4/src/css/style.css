@@ -1,0 +1,148 @@
+
+
+body {
+
+	background-color:#f6f6f6;
+	width: 1200px;
+	height: 675px;
+}
+
+
+
+.img, .text, .box {
+	display: inline-block;
+	width: 38%;
+	height: 38%;
+vertical-align: middle;
+
+}
+
+.box {
+position:absolute;
+width: 1010px;
+height: 503px;
+border: 1px solid #d7d7d7;
+background-color: #ffffff;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin:auto;
+
+}
+
+img {
+width: 376px;
+height: 375px;
+margin-left: 48px;
+margin-top: -25px;
+margin-bottom: 64px;
+margin-right: 586px;
+padding-bottom: 20px;
+}
+
+.text {
+
+ margin-top: 94px;
+	margin-left: 93px;
+	margin-bottom: 81px;
+	margin-right: 102px;
+
+}
+
+.money {
+width: 103px;
+height: 28px;
+color: #2f2f2f;
+font-family: 'Cabin', sans-serif;
+font-size: 30px;
+font-weight: 400;
+margin-top: 3px;
+}
+
+.prise {
+width: 35px;
+height: 14px;
+color: #2f2f2f;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+font-weight: 400;
+margin-top: 40px;
+}
+
+.earphone {
+width: 178px;
+height: 22px;
+color: #000;
+font-family: 'Cabin', sans-serif;
+font-size: 23px;
+font-weight: 400;
+margin-top: -18px;
+}
+
+
+.button-text {
+
+width: 174px;
+height: 18px;
+color: #ffffff;
+font-size: 19px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+width: 252px;
+height: 50px;
+background-color: #ec744a;
+margin-top: 20px;
+margin-right: 232px;
+margin-left: 30px;
+border-style: none;
+outline-style: none;
+}
+
+
+
+
+
+
+.paragraph {
+	width: 393px;
+height: 50px;
+color: #2f2f2f;
+font-family: "Arial MT";
+font-size: 15px;
+font-weight: 400;
+margin-top: -5px;
+}
+
+.text, .money, .prise, .earphone, .button, .paragraph {
+ padding-left:25px;
+	display: inline-block;
+
+}
+
+@media (max-width: 600px) {
+    .box{
+        flex-wrap: wrap;
+    }
+      .img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 45px;
+    }
+    
+        .text{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+IE: 11.0, 10.0 -ms-
+Firefox: 28.0, 18.0 -moz-
+Chrome: 29.0, 21.0 -webkit-
+Safari: 6.1 -webkit-
+Opera: 12.1 -webkit-
+iOS Safari: 7.0 -webkit-
+Opera Mini: 8
+Android Browser: 4.4, 4.1 -webkit-
+Chrome for Android: 44
